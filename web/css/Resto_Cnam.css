@@ -2,16 +2,39 @@
 /* CSS Document */
 
 @font-face {
-    font-family: "Odin";
-    src: url("Odin Rounded - Bold.otf") format("truetype");
+	font-family: "Odin";
+	src: url("Odin Rounded - Bold.otf") format("truetype");
 }
 /*centrage d'un bloc de texte */
 P.blocktext {
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 /*Centrage d'une image avec class display*/
 IMG.display {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#title_semaine {
+	color: grey;
+	text-align: center;
+	font-size: 40px;
+	font-family: Odin;
+
+}
+#marquee {
+	display: block;
+	font-size: 32px;
+	color: red;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0;
+	padding-right: 0;
+	width: 80%;
+}
+#footer{
+	background-color: blue;
+	
+	
+}
