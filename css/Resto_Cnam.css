@@ -2,17 +2,35 @@
 /* CSS Document */
 
 @font-face {
-    font-family: "Odin";
-    src: url("Odin Rounded - Bold.otf") format("truetype");
+	font-family: "Odin";
+	src: url("Odin Rounded - Bold.otf") format("truetype");
 }
 /*centrage d'un bloc de texte */
 P.blocktext {
-    margin-left: auto;
-    margin-right: auto;
-    width: 6em
+	margin-left: auto;
+	margin-right: auto;
 }
 /*Centrage d'une image avec class display*/
 IMG.display {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#news {
+	color: grey;
+	text-align: center;
+	font-size: 40px;
+	font-family: Odin;
+
+}
+#marquee {
+	font-size: 32px;
+	color: red;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: auto;
+	padding-right: auto;
+	width: 80%;
+
+
+}
