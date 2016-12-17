@@ -10,7 +10,17 @@
 <?php  include('../inc/header.php'); ?>
 <body>
 	<img class="display" src="images/Toine_Hermsen_interieur.jpg" width="80%">
-	<p id="news">LES NEWS DE LA SEMAINE</p>
+	<p id="title_semaine">FLASH INFOS</p>
 	<marquee behavior="Scroll" id="marquee" >lorem ipsum</marquee>
+	<p id="title_semaine">LES MEILLEURES ADRESSES</p>
+	<table align="center" width="80%">
+		<tr>
+			<td><img src="images/img_resto1.jpg" alt="Restaurant 1" ></td>
+			<td><img src="images/img_resto2.jpg" alt="Restaurant 2" ></td>
+			<td><img src="images/img_resto3.jpg" alt="Restaurant 3" ></td>
+		</tr>
+
+
+	</table>
 </body>
 </html>
